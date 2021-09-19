@@ -6,7 +6,6 @@
         class="
           w-full
           focus:border-1 focus:border-blue-500
-          h-10
           bg-gray-900
           px-2
           py-2
