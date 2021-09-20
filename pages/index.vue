@@ -4,15 +4,20 @@
       <navbar />
     </div>
     <div>
-      <Tutorial />
+      <tab />
     </div>
   </div>
 </template>
 
 <script>
 import navbar from '~/components/navbar/navbar.vue'
+import tab from '~/components/tab-components/tab.vue'
 export default {
-  components: { navbar },
+  components: { navbar, tab },
 }
 </script>
-<style></style>
+<style>
+body {
+  background-color: #0d1117;
+}
+</style>
